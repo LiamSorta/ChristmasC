@@ -3,11 +3,17 @@ The most festive macro language around
 
 # Current Definitions
 HARK_THE_HERALD = int main()
+
 JINGLE = cout
+
 ADVENT = 25
+
 ROCKING_AROUND_THE_CHRISTMAS_TREE = Message greeting + fixed 25 iteration loop (See explaination)
+
 SILVER_BELLS = " Days until Christmas\n"
+
 THE_GRINCH cin.get();
+
 
 
 Explaination:
