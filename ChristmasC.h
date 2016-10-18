@@ -9,7 +9,7 @@
 #define HARK_THE_HERALD int main()
 #define THE_GRINCH cin.get();
 
-#define BASE "On the " << snow << "th day of Christmas my true love sent to me: \n"
+#define BASE "On the " << snow; if (snow == 1) {std::cout << "st";} else if(snow == 2) {std::cout << "nd";} else if (snow == 3) {std::cout << "rd";}else {std::cout << "th";} std::cout << " day of Christmas my true love sent to me: \n"
 #define ONE "A partridge in a Pear Tree\n"
 #define TWO "2 Turtle Doves\n"
 #define THREE "3 French Hens\n"
@@ -30,6 +30,8 @@ WHITE_CHRISTMAS
 
 void MerryChristmas(int snow){
 	switch (snow){
+        case 0:
+                break;
 	case 1:
 		JINGLE << BASE << ONE;
 		break;
@@ -77,5 +79,7 @@ void MerryChristmas(int snow){
 	case 12:
 		JINGLE << BASE << ONE << TWO << THREE << FOUR << FIVE << SIX << SEVEN << EIGHT << NINE << TEN << ELEVEN << TWELVE;
 		break;
+	default:
+	        exit(1);
 	}
 }
