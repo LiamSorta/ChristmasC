@@ -7,7 +7,7 @@
 #define SILVER_BELLS " Days until Christmas\n" 
 #define WHITE_CHRISTMAS using namespace std;
 #define HARK_THE_HERALD int main()
-#define THE_GRINCH cin.get();
+#define THE_GRINCH return 0;
 
 #define BASE "On the " << snow; if (snow == 1) {std::cout << "st";} else if(snow == 2) {std::cout << "nd";} else if (snow == 3) {std::cout << "rd";}else {std::cout << "th";} std::cout << " day of Christmas my true love sent to me: \n"
 #define ONE "A partridge in a Pear Tree\n"
